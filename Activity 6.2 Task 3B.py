@@ -9,6 +9,9 @@
 # include libraries 
 import math
 # get inputs from user
+SPL = float(input("Please enter the sound pressure level (in (dB)): "))
+Pref = float(input("Please enter the reference pressure (in (Pa)): "))
+v = float(input("Please enter the particle velocity (in (m/s)): "))
 SPL = 190
 Pref = 1e-6
 v = 1
@@ -16,5 +19,4 @@ v = 1
 P = Pref * 10**(SPL / 20)
 I = P * v
 # display results
-print("Sound pressure:", P, "Pa")
-print("Maximum sound intensity:", I, "W/m^2")
+print(f"Maximum allowable sound intensity: {I:.2f} W/m^2")
