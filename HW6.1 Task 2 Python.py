@@ -9,4 +9,13 @@
 # term in years
 # include libraries
 import math
-# in
+# get inputs from users
+P = float(input("Please enter the loan amount (principal): ")
+A_R = float(input("Please enter the annual interest rate (in(%)): ")
+y = float(input("Please enter the loan term (in(years): ")
+# calculate results          
+r = A_R / (12 * 100)
+n = y * 12
+M = (P * r (1 + r) ** n) / ((1 + r) ** n - 1)
+# display results
+print(f"Monthly payment: ${M: .2f}")
