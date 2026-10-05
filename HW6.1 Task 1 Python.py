@@ -11,5 +11,7 @@ import math
 m = float(input("Please enter the mass of the object (in(kg)): ")
 vi = float(input("Please enter the intial velocity (in(m/s)): ")
 vf = float(input("Please enter the final velocity (in(m/s)): ")
-# display results
+# compute results
 W = 0.5 * m * (vf**2-vi**2)
+# display results
+print("Work done =", W, "J")
