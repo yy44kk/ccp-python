@@ -19,4 +19,4 @@ if 0 <= ph <= 14:
   if ph <= 14:
     print("The solution is basic.")
   else:
-    print("The solution is not valid.")
+    print("The solution is not valid.") 
